@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>
+        Try to login with:
+        <ul>
+            <li>Username: @ViewBag.UserName</li>
+            <li>Password: @ViewBag.Password</li>
+            <li>ProtectedString: @ViewBag.ProtectedString</li>
+        </ul>
+    </p>
+</div>

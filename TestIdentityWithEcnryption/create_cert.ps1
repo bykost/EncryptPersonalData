@@ -1,0 +1,1 @@
+$cert = New-SelfSignedCertificate -certstorelocation cert:\localmachine\my -dnsname testdomain.co.nz
